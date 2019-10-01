@@ -1,0 +1,82 @@
+.position{
+    width:900px;
+    height:550px;
+    position:relative;
+}
+.deer{
+    position:relative;
+    width:250px;
+    height:250px;
+    bottom:285px;
+    left:180px;
+    z-index: 2;
+
+}   
+.sheep{
+    position:relative;
+    width:180px;
+    height:180px;
+    bottom:470px;
+    left:310px;
+    z-index: 1;
+
+
+} 
+.bird{
+    position:relative;
+    width:90px;
+    height:80px;
+    bottom:970px;
+    left:190px;
+}  
+.house{
+    position:relative;
+    width:110px;
+    height:100px;
+    bottom:950px;
+    left:100px; 
+}
+.ship{
+    position:relative;
+    width:200px;
+    height:210px;
+    bottom:1150px;
+    left:690px;
+
+}
+.goose{
+    position:relative;
+    width:20px;
+    height:30px;
+    bottom:1100px;
+    left:70px;   
+
+}
+.stone{
+    position:relative;
+    width:60px;
+    height:45px;
+    bottom:950px;
+    left:650px;
+}
+.cat{
+    position:relative;
+    width:70px;
+    height:80px;
+    bottom:1060px;
+    left:650px;
+}
+.beacon{
+    position:relative;
+    width:200px;
+    height:210px;
+    bottom:1530px;
+    left:440px;  
+}
+.stump{
+    position:relative;
+    width:50px;
+    height:30px;
+    bottom:1400px;
+    left:70px;  
+}
