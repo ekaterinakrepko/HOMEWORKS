@@ -1,6 +1,6 @@
 .position{
-    width:900px;
-    height:550px;
+    width:800px;
+    height:600px;
     position:relative;
     background: url(picture.jpg) no-repeat;
 }
@@ -18,7 +18,7 @@
     width:180px;
     height:180px;
     bottom:80px;
-    left:270px;
+    left:300px;
     z-index: 1;
 
 
@@ -27,7 +27,7 @@
     position:absolute;
     width:90px;
     height:80px;
-    bottom:470px;
+    bottom:490px;
     left:190px;
 }  
 .house{
@@ -41,7 +41,7 @@
     position:absolute;
     width:200px;
     height:210px;
-    bottom:280px;
+    bottom:320px;
     left:570px;
 
 }
@@ -71,7 +71,7 @@
     position:absolute;
     width:200px;
     height:210px;
-    bottom:300px;
+    bottom:330px;
     left:340px;  
 }
 .stump{
