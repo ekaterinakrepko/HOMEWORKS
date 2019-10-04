@@ -2,81 +2,82 @@
     width:900px;
     height:550px;
     position:relative;
+    background: url(picture.jpg) no-repeat;
 }
 .deer{
-    position:relative;
+    position: absolute;
     width:250px;
     height:250px;
-    bottom:285px;
+    bottom:80px;
     left:180px;
     z-index: 2;
 
 }   
 .sheep{
-    position:relative;
+    position:absolute;
     width:180px;
     height:180px;
-    bottom:470px;
-    left:310px;
+    bottom:80px;
+    left:270px;
     z-index: 1;
 
 
 } 
 .bird{
-    position:relative;
+    position:absolute;
     width:90px;
     height:80px;
-    bottom:970px;
+    bottom:470px;
     left:190px;
 }  
 .house{
-    position:relative;
+    position:absolute;
     width:110px;
     height:100px;
-    bottom:950px;
-    left:100px; 
+    bottom:280px;
+    left:50px; 
 }
 .ship{
-    position:relative;
+    position:absolute;
     width:200px;
     height:210px;
-    bottom:1150px;
-    left:690px;
+    bottom:280px;
+    left:570px;
 
 }
 .goose{
-    position:relative;
+    position:absolute;
     width:20px;
     height:30px;
-    bottom:1100px;
+    bottom:180px;
     left:70px;   
 
 }
 .stone{
-    position:relative;
+    position:absolute;
     width:60px;
     height:45px;
-    bottom:950px;
-    left:650px;
+    bottom:45px;
+    left:500px;
 }
 .cat{
-    position:relative;
+    position:absolute;
     width:70px;
     height:80px;
-    bottom:1060px;
-    left:650px;
+    bottom:65px;
+    left:500px;
 }
 .beacon{
-    position:relative;
+    position:absolute;
     width:200px;
     height:210px;
-    bottom:1530px;
-    left:440px;  
+    bottom:300px;
+    left:340px;  
 }
 .stump{
-    position:relative;
+    position:absolute;
     width:50px;
     height:30px;
-    bottom:1400px;
-    left:70px;  
+    bottom:100px;
+    left:40px;  
 }
