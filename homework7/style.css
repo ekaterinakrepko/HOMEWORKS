@@ -1,0 +1,92 @@
+body{
+    max-width:1024px;
+    margin: 0 auto;
+}
+#header{
+    min-height: 200px;
+    background:#FFF8DC;
+    text-align:center;
+    padding: 5px 5px;
+    
+}
+.car{
+    display: block center;
+    max-width:170px;  
+    max-height: 130px;
+}
+.namber{
+    text-align:left;   
+}
+.block{
+    height: 50px;
+    width: 525px;
+    border-radius: 10px;
+    font-size:17px;
+    border-color:#AFEEEE;
+ 
+}
+.menu-horisontal{
+    float:left;
+    height: 50px;
+    width: 100px;
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    border-radius: 5px;
+    background:#FFEFD5;
+}
+.clearfix{
+    clear:both;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+a:hover{
+    color:#00BFFF;
+}
+#wrapper{
+    max-width:1024px;
+    margin: 0 auto;
+    padding: auto 5px;  /*Не работает отступ лево-право*/
+}
+.left-block{
+    background:#AFEEEE;
+    border-radius: 5px;
+
+    float: left;
+    width: 250px;
+    margin-right: 20px;
+}
+.content{
+    min-height: 1024px;
+    background:#FFF8DC;
+    float: left;
+    width: calc(100% - 270px);
+
+}
+.menu-vertical{
+    height: 50px;
+    width: 250px;
+    margin:0 auto px;
+    padding:0px;
+    box-sizing:border-box;
+}
+h1, h2{
+    text-align: center;
+}
+
+
+.travel{
+    width:300px;  
+    height: 260px;
+    float:left; 
+}
+#footer{
+    max-width:1024px;
+    margin: 0 auto;
+    background: #FFDAB9;
+    text-align: left;
+    max-height: 70px;
+}
