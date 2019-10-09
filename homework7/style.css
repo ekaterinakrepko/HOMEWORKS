@@ -1,10 +1,17 @@
+@font-face {
+    font-family: 'optimusprincepscyrregular';
+    src: url('17932-webfont.woff2') format('woff2'),
+         url('17932-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 body{
     max-width:1024px;
     margin: 0 auto;
 }
 #header{
     min-height: 200px;
-    background:#FFF8DC;
+    background:#FFE4B5;
     text-align:center;
     padding: 5px 5px;
     
@@ -14,31 +21,30 @@ body{
     max-width:170px;  
     max-height: 130px;
 }
-.namber{
-    text-align:left;   
+.number{
+    text-align:left;
+    font-size: 14px;
+    font-style:italic;
 }
 .block{
     height: 50px;
     width: 525px;
     border-radius: 10px;
     font-size:17px;
-    border-color:#AFEEEE;
- 
+    background:#FFF8DC;
+    margin:0 auto;
 }
 .menu-horisontal{
     float:left;
     height: 50px;
     width: 100px;
-    margin:0px;
-    padding:0px;
     box-sizing:border-box;
     border-radius: 5px;
-    background:#FFEFD5;
+    background:#FFF8DC;
 }
 .clearfix{
     clear:both;
 }
-
 a{
     text-decoration: none;
     color:black;
@@ -48,45 +54,47 @@ a:hover{
 }
 #wrapper{
     max-width:1024px;
-    margin: 0 auto;
-    padding: auto 5px;  /*Не работает отступ лево-право*/
+    margin: 0 auto; 
 }
 .left-block{
-    background:#AFEEEE;
+    background:#FFEBCD;
     border-radius: 5px;
 
     float: left;
     width: 250px;
-    margin-right: 20px;
+    margin-right:0px;
 }
 .content{
     min-height: 1024px;
     background:#FFF8DC;
     float: left;
-    width: calc(100% - 270px);
-
+    width: calc(100% - 260px);
+    padding: 5px;
+    text-align: justify;
+    text-indent:25px;
+    letter-spacing: 1px;
 }
 .menu-vertical{
     height: 50px;
     width: 250px;
-    margin:0 auto px;
-    padding:0px;
+    padding:2px;
     box-sizing:border-box;
 }
-h1, h2{
-    text-align: center;
+h1, h2, h3{
+    text-align:center;
+    font-family:'optimusprincepscyrregular';
 }
-
-
 .travel{
     width:300px;  
-    height: 260px;
-    float:left; 
+    height: 240px;
+    float:left;
+    border-radius: 10px; 
+    margin:3px; 
 }
 #footer{
     max-width:1024px;
     margin: 0 auto;
-    background: #FFDAB9;
+    background:#FFE4B5;
     text-align: left;
-    max-height: 70px;
+    max-height: 100px;
 }
