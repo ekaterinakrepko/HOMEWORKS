@@ -1,3 +1,6 @@
+.border-top{
+    
+}
 .table{
 
     width:100%;
@@ -8,10 +11,11 @@
 
 td{
     padding: 1px 2px 1px 15px;
+    vertical-align: top;
 }
 .border{
-    border-left:1px solid white;
-    border-right: 1px solid white;
+    border-left:0px solid white;
+    border-right: 0px solid white;
     border-bottom: 1px solid black;
     border-top: 1px solid black;
 }
