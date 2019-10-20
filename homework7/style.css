@@ -37,6 +37,7 @@ body{
 */
 .menu-horisontal a{
     float:left;
+
 }
 .menu-horisontal{
     box-sizing:border-box;
@@ -55,6 +56,7 @@ a{
     width: 110px;
     padding:5px;
     margin: 2px;
+    
 }
 a:hover{
     color:#d6f58e;
@@ -86,6 +88,16 @@ a:hover{
     box-sizing:border-box;
     background:#FFA500;
 }
+.menu-vertical ul{
+    list-style: none;
+}
+.menu-vertical ul li{
+    margin-bottom: 15px;
+}
+.menu-vertical ul li a{
+    font-weight: 500;
+    font-size: 16px;
+}
 
 }
 h1, h2, h3{
@@ -101,9 +113,8 @@ h1, h2, h3{
 #footer .wrapper{
     max-width:1024px;
     margin: 0 auto;
-    background:#FF6F50;
+    background:#FFA500;
     text-align: left;
-    min-height:120px;
 }
 .copyright{
     width:40px;  
