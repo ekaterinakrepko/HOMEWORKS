@@ -1,0 +1,31 @@
+
+.wrapper{
+ /*max-width: 1260px;*/
+ width: 1020px;
+ margin: 0 auto;
+ display:flex;
+ justify-content:space-between;
+ padding:0px 240px 0px 240px;
+}
+.home-slider-box{
+    height: 512px;
+    width: 1020px;
+    background: url(img/home-slider-img.jpg) no-repeat top center;
+    box-sizing: border-box;
+    
+}
+.home-slider-title,
+.home-slider-box-title,
+.home-slider-box-text,
+.home-slider-box-button{
+    display:flex;
+    flex-direction:column;
+}
+.accessories-slider-box{
+    height: 484px;
+    width: 622px;
+}
+.subscribe-slider-box{
+    height: 484px;
+    width: 378px;
+}
