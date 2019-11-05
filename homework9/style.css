@@ -1,5 +1,11 @@
+body{
+    width: 1260px; 
+    display:flex;
+    justify-content:center; 
+    flex-flow: column;
+}
 .wrapper{
- width: 1260px;
+ width: 1020px;
  margin: 0 auto;
  display:flex;
  justify-content:space-between;
@@ -13,9 +19,11 @@
 }
 .home-slider-box{
     height: 512px;
-    width: 1020px;
+    flex-basis:100%;
+    /*width: 1020px;*/
     background: url(img/home-slider-img.jpg) no-repeat top center;
     box-sizing: border-box;
+    padding: 42px 395px 7px 40px;
 }
 
 .home-slider{
@@ -23,22 +31,31 @@
     flex-flow: row wrap;
     flex-basis:1020px;
     }
-.home-slider-title,
+/*.home-slider-title,
 .home-slider-box-title,
 .home-slider-box-text,
 .home-slider-box-button{
     display:flex;
     flex-direction:column;
+    */
+    .home-slider-box,
+    .accessories-slider-box,{
+    display:flex;
+    flex-direction:column;
 }
+
 .accessories-slider-box{
     display:flex;
-    flex-basis:622px;
+    flex-basis:56%;
     height: 484px;
-    background: #79bdca;
+    background: #79bdca url(img/accessories-slider.png) no-repeat top right;
+    flex-direction:column;
+    margin-right: 3%;
+    padding: 42px 0 7px 40px;
 }
 .subscribe-slider-box{
-    height: 484px;
-    flex-basis:378px;
+    /*height: 484px;*/
+    flex-basis:37%;
     background: url(img/subscribe-slider-img.png);
 }
 .subscribe-slider-box-info,
@@ -50,6 +67,31 @@
     align-content:center;
     flex-flow: column wrap;
 }
-.home-slider-box{
-    padding: 42px 395px 7px 40px;
+.leica_M-slider-box{
+    display:flex;
+    flex-basis:25.5%;
+    height: 420px;
+    background: url(img/Leica\ M-slider.jpg) no-repeat center;
+    margin-right: 2.2%;
+}
+.home-slider-box-info{
+    display: flex;
+    flex-direction:column;
+    justify-content:flex-end;
+}
+.trobla_amplifier-box{
+    display:flex;
+    flex-basis:25.5%;
+    height: 420px;
+    background: url(img/trobla_amplifier.jpg) no-repeat center;  
+    margin-right:2.2%;
+}
+.leica_d-lux-box{
+    display:flex;
+    flex-basis:44.5%;
+    height: 420px;
+    background: #1ab467 url(img/leica_d-lux-box.png) no-repeat bottom right;
+}
+.footer_facebook{
+    background: url(img/facebook.png) no-repeat;
 }
