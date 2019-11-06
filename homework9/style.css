@@ -1,8 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap&subset=cyrillic');
+
+@font-face{
+    font-family: 'Times New Roman';
+    src: url(fonts/times.ttf);
+}
+
 body{
     width: 1260px; 
     display:flex;
     justify-content:center; 
     flex-flow: column;
+    font-family: 'Open Sans', sans-serif;
+    color:#fff;
 }
 .wrapper{
  width: 1020px;
@@ -24,6 +33,16 @@ body{
     background: url(img/home-slider-img.jpg) no-repeat top center;
     box-sizing: border-box;
     padding: 42px 395px 7px 40px;
+    font-family: openans;
+    margin-bottom: 20px;
+}
+.button{
+    border:2px solid #ffe18f;
+    background: none;
+}
+.trobla_amplifier-box-button,
+.leica_M-slider-box-button>.button{
+    background: #ffe18f;
 }
 
 .home-slider{
@@ -39,7 +58,7 @@ body{
     flex-direction:column;
     */
     .home-slider-box,
-    .accessories-slider-box,{
+    .accessories-slider-box{
     display:flex;
     flex-direction:column;
 }
@@ -51,12 +70,14 @@ body{
     background: #79bdca url(img/accessories-slider.png) no-repeat top right;
     flex-direction:column;
     margin-right: 3%;
+    margin-bottom: 20px;
     padding: 42px 0 7px 40px;
 }
 .subscribe-slider-box{
     /*height: 484px;*/
     flex-basis:37%;
     background: url(img/subscribe-slider-img.png);
+    margin-bottom: 20px;
 }
 .subscribe-slider-box-info,
 .subscribe-slider-box-title,
@@ -67,24 +88,50 @@ body{
     align-content:center;
     flex-flow: column wrap;
 }
+.email-input{
+    background: none;
+    border:2px solid #ffd9d1;
+}
+.subscribe-button{
+    background: #66689c;
+}
 .leica_M-slider-box{
     display:flex;
     flex-basis:25.5%;
     height: 420px;
     background: url(img/Leica\ M-slider.jpg) no-repeat center;
     margin-right: 2.2%;
+    justify-content: center;
 }
-.home-slider-box-info{
+
+.home-slider-box-button,
+.accessories-slider-box-button,
+.leica_d-lux-box-button{
+    margin-top: auto;
+}
+.home-slider-box-info,
+.accessories-slider-box-info,
+.leica_d-lux-box-info{
     display: flex;
     flex-direction:column;
-    justify-content:flex-end;
+    height: 90%;
+  
 }
+.leica_M-slider-box-info,
+.trobla_amplifier-box-info{
+    display: flex;
+    flex-direction:column;
+    height: 90%;
+    justify-content: space-around;
+}
+
 .trobla_amplifier-box{
     display:flex;
     flex-basis:25.5%;
     height: 420px;
     background: url(img/trobla_amplifier.jpg) no-repeat center;  
     margin-right:2.2%;
+    justify-content: center;
 }
 .leica_d-lux-box{
     display:flex;
@@ -92,6 +139,22 @@ body{
     height: 420px;
     background: #1ab467 url(img/leica_d-lux-box.png) no-repeat bottom right;
 }
+.footer-img{
+    display:flex;
+}
 .footer_facebook{
     background: url(img/facebook.png) no-repeat;
+    width: 50px;
+    height: 50px;
+}
+.footer_twitter{
+    background:url(img/twitter.png) no-repeat;
+    width: 50px;
+    height: 50px;
+}
+.home-slider-box-button a,
+.accessories-slider-box-button a,
+.leica_d-lux-box-button a{
+    text-decoration: none;
+    border-color: #ffe18f;
 }
