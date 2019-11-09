@@ -121,8 +121,7 @@ font-weight: bold;
 .subscribe-slider-box-info,
 .subscribe-slider-box-title,
 .subscribe-slider-box-text,
-.subscribe-email,
-.subscribe-email-form{
+.subscribe-email{
     display:flex;
     align-content:center;
     flex-flow: column wrap;
@@ -220,7 +219,7 @@ font-weight: bold;
     display: inline-flex;
     align-items: center;
 }
-a .menu-title,
+a.menu-link,
 a .header-search-button {
     text-decoration: none;
 }
