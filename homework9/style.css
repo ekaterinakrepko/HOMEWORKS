@@ -178,7 +178,7 @@ font-weight: bold;
 .leica_d-lux-box{
     display:flex;
     flex-direction: column;
-    flex-basis:44.5%;
+    flex-basis:40.5%;
     height: 420px;
     background: #1ab467 url(img/leica_d-lux-box.png) no-repeat bottom right;
 }
@@ -228,3 +228,6 @@ a .header-search-button {
     width: 284;
     color: #fff;
 }
+/*.leica_d-lux-box{
+    padding: 42px 0 0 40px;
+}*/
