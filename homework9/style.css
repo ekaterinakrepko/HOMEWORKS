@@ -37,18 +37,45 @@ body{
     margin-bottom: 20px;
 }
 .button{
+    width: fit-content;
     border:2px solid #ffe18f;
     background: none;
+    font-size: 20px;
+    font-weight: bold;    
 }
-.trobla_amplifier-box-button,
+.trobla_amplifier-box-button>.button,
 .leica_M-slider-box-button>.button{
     background: #ffe18f;
 }
-
 .home-slider{
     display: flex;
     flex-flow: row wrap;
     flex-basis:1020px;
+    }
+    .home-slider-box-title{
+        font-size: 72px;
+        font-weight: bold;
+    }
+            
+    .home-slider-box-text{
+        font-size: 36px;  
+    }
+ .home-slider-title,
+ .accessories-slider-title,
+ .leica_M-slider-title,
+ .trobla_amplifier-title,
+ .leica_d-lux-title{
+    font-size: 14px;
+    color: #ffc7b0;
+    font-weight: bold;
+
+ }
+    .leica_M-slider-box-title,
+    .trobla_amplifier-box-title,
+    .leica_d-lux-box-title{
+     font-size: 36px;
+    font-weight: bold;
+
     }
 /*.home-slider-title,
 .home-slider-box-title,
@@ -61,8 +88,17 @@ body{
     .accessories-slider-box{
     display:flex;
     flex-direction:column;
+ 
 }
+.accessories-slider-box-title{
+    font-size: 48px;
+font-weight: bold;
+}
+.accessories-slider-box-text,
+.subscribe-slider-box-text{
+    font-size: 24px;
 
+}
 .accessories-slider-box{
     display:flex;
     flex-basis:56%;
@@ -72,6 +108,9 @@ body{
     margin-right: 3%;
     margin-bottom: 20px;
     padding: 42px 0 7px 40px;
+}
+.subscribe-slider-box-title{
+    font-size: 48px;
 }
 .subscribe-slider-box{
     /*height: 484px;*/
@@ -87,6 +126,7 @@ body{
     display:flex;
     align-content:center;
     flex-flow: column wrap;
+    font-family: 'Times New Roman';
 }
 .email-input{
     background: none;
@@ -124,7 +164,9 @@ body{
     height: 90%;
     justify-content: space-around;
 }
-
+.leica_d-lux-box-text{
+    font-weight: 20px;
+}
 .trobla_amplifier-box{
     display:flex;
     flex-basis:25.5%;
@@ -135,6 +177,7 @@ body{
 }
 .leica_d-lux-box{
     display:flex;
+    flex-direction: column;
     flex-basis:44.5%;
     height: 420px;
     background: #1ab467 url(img/leica_d-lux-box.png) no-repeat bottom right;
@@ -157,4 +200,31 @@ body{
 .leica_d-lux-box-button a{
     text-decoration: none;
     border-color: #ffe18f;
+}
+.white{
+    color:#ffffff;
+}
+.icon-burger{
+    display: inline-flex;
+    width: 20px;
+    height: 20px;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 12px;
+}
+.icon-burger span{
+    background: #333;
+    height: 2px;
+}
+.menu-link{
+    display: inline-flex;
+    align-items: center;
+}
+a .menu-title,
+a .header-search-button {
+    text-decoration: none;
+}
+.email-input{
+    width: 284;
+    color: #fff;
 }
