@@ -1,0 +1,35 @@
+<form method="post" action="http://nickblack.pro/send.php">
+ 
+        <p>
+        <label for="fname"> Имя <em>*</em> </label>
+        <input type="text" name="fname" required>
+        </p>
+        <p>
+        <label for="sname"> Фамилия </label>
+        <input type="text" name="sname">   
+        </p>
+        <p>
+             <label for="number"> Возраст </label>
+                <input type="number"  name="age" min="1" max="100"> 
+        </p>
+        <p>
+                <label for="mail">Почта</label>
+                <input type="mail" name="mail">
+            </p>
+            <p>
+                <label for="bday">Дата рождения</label>
+                <input type="bday" min="1980-09-10">
+                </p>
+        <p>
+                <label for="phone">Телефон <em>*</em></label>
+                <input type="phone" maxlength="13" required name="phone">
+            </p>
+            <p>
+                    <label for="mymail">Email  получателя <em>*</em></label>
+                    <input type="mymail" value="ekaterina.krepko@gmail.com" name="mymail" size="22px" readonly required>
+                </p>
+                <p>
+                    <input type="submit" value="Отослать">
+                    </p>
+
+</form>
