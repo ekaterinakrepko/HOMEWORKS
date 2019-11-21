@@ -62,7 +62,7 @@ else{
 //5
 
 
-let month = 1;
+let month = 13;
 if(month > 2 && month < 6 ){
     console.log ("Вена")
 }
@@ -70,7 +70,9 @@ else if(month > 6 && month < 9 ){
     console.log ("Лето")
   } else if(month > 8 && month < 12 ){
         console.log ("Осень")
-  
+
 }  else if(month >= 1 && month < 3){
+    console.log ("Зима")
+}else if(month <= 12){
     console.log ("Зима")
 }

@@ -6,25 +6,17 @@
 }
 
 body{
-    width: 1260px; 
-    display:flex;
     justify-content:center; 
-    flex-flow: column;
     font-family: 'Open Sans', sans-serif;
     color:#fff;
+    background: #3e3b4a;
 }
 .wrapper{
- width: 1020px;
+ max-width: 1020px;
  margin: 0 auto;
  display:flex;
  justify-content:space-between;
- padding:0px 240px 0px 240px;
- background: #3e3b4a;
-padding-bottom: 30px;
-padding-top:60px;
 }
-
-
 .wrapper 
 #main{
     width: 1020px;
@@ -290,6 +282,7 @@ a.header-search-button {
 .header-search{
     display: flex;
     align-items: center;
+    background: url(img/search.png) no-repeat right;
  
 
 
