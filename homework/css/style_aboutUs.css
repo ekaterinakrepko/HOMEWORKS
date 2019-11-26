@@ -1,0 +1,12 @@
+/* content: url("http://www.example.com/test.png");*/
+.aboutUs{
+    display: flex;
+    flex-wrap: wrap;
+}
+.aboutUs_title{
+    flex-basis: 100%;
+}
+
+.aboutUs_workplace,.aboutUs_text{
+    flex-basis: 50%;
+}
