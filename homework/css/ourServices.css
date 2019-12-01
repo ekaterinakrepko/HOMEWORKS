@@ -11,6 +11,8 @@
 }
 .ourServices_galery{
     display: flex;
+    flex-flow: wrap;
+    justify-content: center;
 
 }
 .galery_item_galery_item-selected,
@@ -22,7 +24,11 @@
 }
 .galery_item_galery_item-selected{
     background: url(../img/our_services_tea.png);
+    max-width: 650px;
+    min-height: 420px;
 }
 .galery_item_galery_item-paper{
-background: url(../img/our_services_papers.png);
+background: url(../img/our_services_papers.png) no-repeat;
+max-width: 473px;
+min-height: 420px;
 }
