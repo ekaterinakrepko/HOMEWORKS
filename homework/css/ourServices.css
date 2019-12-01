@@ -1,0 +1,28 @@
+.ourServices{
+    display: flex;
+    flex-flow: wrap;
+    background: #f9fbfb;
+    padding-top: 120px;
+    padding-bottom: 122px;
+}
+.ourServices_title{
+    flex-basis: 100%;
+    text-align: center;
+}
+.ourServices_galery{
+    display: flex;
+
+}
+.galery_item_galery_item-selected,
+.galery_item_galery_item-paper{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+
+}
+.galery_item_galery_item-selected{
+    background: url(../img/our_services_tea.png);
+}
+.galery_item_galery_item-paper{
+background: url(../img/our_services_papers.png);
+}
