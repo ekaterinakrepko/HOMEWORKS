@@ -2,11 +2,37 @@
 .aboutUs{
     display: flex;
     flex-wrap: wrap;
+    background: #f8fafa;
 }
 .aboutUs_title{
     flex-basis: 100%;
+    text-align: center;
 }
 
 .aboutUs_workplace,.aboutUs_text{
     flex-basis: 50%;
+}
+/*
+.aboutUs_workplace{
+  
+    content: url(../img/work_place.jpg);
+}
+*/
+
+.aboutUs_workplace_sliderMenu{
+    display: inline-flex;
+    height: 22px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 12px;
+}
+.aboutUs_workplace_sliderMenu span{
+    background: #d0d0d0;
+    height: 50px;
+    width: 50px;
+    margin: 1px;
+    border-radius: 25%;
+}
+.aboutUs_workplace_sliderMenu span .color{
+    background: #71f6eb;
 }
