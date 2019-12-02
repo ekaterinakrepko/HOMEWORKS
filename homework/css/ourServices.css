@@ -16,7 +16,11 @@
 
 }
 .galery_item_galery_item-selected,
-.galery_item_galery_item-paper{
+.galery_item_galery_item-paper,
+.galery_item_galery_item-laptop,
+.galery_item_galery_item-workplace,
+.galery_item_galery_item-bottle,
+.galery_item_galery_item-cups{
     display: flex;
     flex-flow: column wrap;
     justify-content: space-evenly;
@@ -31,4 +35,24 @@
 background: url(../img/our_services_papers.png) no-repeat;
 max-width: 473px;
 min-height: 420px;
+}
+.galery_item_galery_item-laptop{
+    background: url(../img/our_services_laptop.png);
+    max-width: 650px;
+    min-height: 370px;
+}
+.galery_item_galery_item-workplace{
+    background: url(../img/our_services_workplace.png);
+    max-width: 473px;
+    min-height: 370px;
+}
+.galery_item_galery_item-bottle{
+    background: url(../img/our_services_bottle.png);
+    max-width: 470px;
+    min-height: 370px;
+}
+.galery_item_galery_item-cups{
+    background: url(../img/our_services_cupspng.png);
+    max-width: 652px;
+    min-height: 370px; 
 }
