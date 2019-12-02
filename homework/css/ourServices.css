@@ -13,6 +13,7 @@
     display: flex;
     flex-flow: wrap;
     justify-content: center;
+    width: 1140px;
 
 }
 .galery_item_galery_item-selected,
@@ -27,32 +28,32 @@
 
 }
 .galery_item_galery_item-selected{
-    background: url(../img/our_services_tea.png);
-    max-width: 650px;
+    background: url(../img/our_services_tea.png) no-repeat center/cover;
+    flex-basis: 60%;
     min-height: 420px;
 }
 .galery_item_galery_item-paper{
-background: url(../img/our_services_papers.png) no-repeat;
-max-width: 473px;
+background: url(../img/our_services_papers.png) no-repeat center/cover;
+flex-basis: 40%;
 min-height: 420px;
 }
 .galery_item_galery_item-laptop{
-    background: url(../img/our_services_laptop.png);
-    max-width: 650px;
+    background: url(../img/our_services_laptop.png) no-repeat center/cover;
+    flex-basis: 60%;
     min-height: 370px;
 }
 .galery_item_galery_item-workplace{
-    background: url(../img/our_services_workplace.png);
-    max-width: 473px;
+    background: url(../img/our_services_workplace.png) no-repeat center/cover;
+    flex-basis: 40%;
     min-height: 370px;
 }
 .galery_item_galery_item-bottle{
-    background: url(../img/our_services_bottle.png);
-    max-width: 470px;
+    background: url(../img/our_services_bottle.png) no-repeat center/cover;
+    flex-basis: 40%;
     min-height: 370px;
 }
 .galery_item_galery_item-cups{
-    background: url(../img/our_services_cupspng.png);
-    max-width: 652px;
+    background: url(../img/our_services_cupspng.png) no-repeat center/cover;
+    flex-basis: 60%;
     min-height: 370px; 
 }
