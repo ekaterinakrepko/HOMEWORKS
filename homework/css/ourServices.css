@@ -4,6 +4,7 @@
     background: #f9fbfb;
     padding-top: 120px;
     padding-bottom: 122px;
+    justify-content: center;
 }
 .ourServices_title{
     flex-basis: 100%;
@@ -29,7 +30,7 @@
 }
 .galery_item_galery_item-selected{
     background: url(../img/our_services_tea.png) no-repeat center/cover;
-    flex-basis: 60%;
+    flex-basis: 57%;
     min-height: 420px;
 }
 .galery_item_galery_item-paper{
@@ -39,7 +40,7 @@ min-height: 420px;
 }
 .galery_item_galery_item-laptop{
     background: url(../img/our_services_laptop.png) no-repeat center/cover;
-    flex-basis: 60%;
+    flex-basis: 57%;
     min-height: 370px;
 }
 .galery_item_galery_item-workplace{
@@ -54,6 +55,6 @@ min-height: 420px;
 }
 .galery_item_galery_item-cups{
     background: url(../img/our_services_cupspng.png) no-repeat center/cover;
-    flex-basis: 60%;
+    flex-basis: 57%;
     min-height: 370px; 
 }
