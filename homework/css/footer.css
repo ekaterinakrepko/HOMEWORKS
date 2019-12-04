@@ -27,7 +27,7 @@
     margin: 8px;
     border-radius: 5%;
 }
-.latter{
+.latter {
     background: #3f4244 url(../img/footer-later.png) center no-repeat;
 }
 .twitter{
@@ -43,4 +43,16 @@
     display: flex;
     flex-basis: 100%;
     justify-content: center;
+}
+.latter:hover{
+    background: #6eeee4 url(../img/footer-later.png) center no-repeat ;
+}
+.twitter:hover{
+    background: #6eeee4  url(../img/footer-twitter.png) center no-repeat;
+}
+.facebook:hover{
+    background: #6eeee4  url(../img/footer_facebook.png) center no-repeat;
+}
+.net:hover{
+    background: #6eeee4 url(../img/footer_net.png) center no-repeat;
 }

@@ -1,0 +1,43 @@
+.form{
+    display: flex;
+    flex-flow: wrap;
+    background: #fafcfc;
+    padding-top: 130px;
+    padding-bottom: 122px;
+    justify-content: space-around;
+}
+.formCard {
+   background: #4a5962;
+   height: 460px;
+   width: 614px;
+   display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+
+}
+}
+.formCard p label {
+    border-color: #4A5961;
+    background: none;
+    border: none;
+    height: 50px;
+    width: 100%;
+    border-bottom: 1px solid silver;
+    font-size: 16px;
+    border: none;
+   
+}
+
+.formMap{
+    background: #4a5962;
+   height: 460px;
+   width: 500px;
+   display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+  
+ 
+}
+.formMap_img{
+    content: url(../img/map.png) center no-repeat;
+}
