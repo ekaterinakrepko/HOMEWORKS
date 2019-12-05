@@ -12,12 +12,12 @@
 .aboutUs_workplace,.aboutUs_text{
     flex-basis: 50%;
 }
-/*
+
 .aboutUs_workplace{
   
     content: url(../img/work_place.jpg);
 }
-*/
+
 
 .aboutUs_workplace_sliderMenu{
     display: inline-flex;
@@ -28,8 +28,8 @@
 }
 .aboutUs_workplace_sliderMenu span{
     background: #d0d0d0;
-    height: 50px;
-    width: 50px;
+    height:10px;
+    width: 10px;
     margin: 1px;
     border-radius: 25%;
 }
