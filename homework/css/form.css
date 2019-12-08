@@ -4,7 +4,7 @@
     background: #fafcfc url(../img/form_team_trees.png);
     padding-top: 130px;
     padding-bottom: 122px;
-    justify-content: space-around;
+    justify-content: center;
 }
 .formCard {
    background: #4a5962;
@@ -16,6 +16,7 @@
     padding-left: 22px;
     padding-right: 24px;
     opacity: 0.9;
+    margin: 15px;
 
 
 }
@@ -40,9 +41,11 @@ textarea
     flex-flow: column;
     justify-content: flex-start;
     opacity: 0.9;
+    margin: 15px;
+    padding: 20px 22px 15px 22px;
 }
 .formMap_img{
-    content: url(../img/map.png) center no-repeat;
+    content: url(../img/map.png);
 }
 .send_message{
     background: #6eeee4;

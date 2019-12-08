@@ -17,6 +17,15 @@
     width: 1140px;
 
 }
+
+.ourServices_galery h3,.ourServices_galery p{
+    color: white;
+}
+.galery_item_galery_item-selected h3,
+.galery_item_galery_item-selected p{    
+    color: black;
+}
+
 .ourServices_galery div{
     padding:6px;
     background-size: calc(100% - 8px);
@@ -61,4 +70,7 @@ min-height: 420px;
     background: url(../img/our_services_cupspng.png) no-repeat center/cover;
     flex-basis: 55%;
     min-height: 370px; 
+}
+.white{
+    color:#f7f7f7;
 }
