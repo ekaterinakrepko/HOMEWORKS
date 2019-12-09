@@ -42,7 +42,7 @@ p{
         background:#eff0f2;
         display: flex;
         flex-wrap: wrap;
-        
+        position: relative;
         justify-content: space-around;
     }
    .header_title{
@@ -92,6 +92,17 @@ border: 6px solid #170f1c ;
      margin-bottom: 70px;
     }
     .cup{
-        position: absolute;
-        content:url(../img/cup.png);
+    position: absolute;
+    content:url(../img/cupT.png);
+    top: 450px;
+    right: 100px;
     }
+
+
+    /* position: absolute;
+    background: url(../img/cupT.png);
+    width: 100px;
+    height: 100px;
+    top: 450px;
+    right: 300px;
+} */

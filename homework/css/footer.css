@@ -56,3 +56,10 @@
 .net:hover{
     background: #6eeee4 url(../img/footer_net.png) center no-repeat;
 }
+.footer-title h3,
+.footer-info{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color: #bdbebf;
+    font-size: 16px; 
+}

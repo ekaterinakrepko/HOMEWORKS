@@ -32,9 +32,14 @@ textarea
     font-size: 16px;
   
 }
+input::placeholder,
+textarea::placeholder{
+    color: #bdbebf;
+  }
 
 .formMap{
-    background: #4a5962;
+    background:#4a5962cf; 
+    /* background:#4a5962;  */
    height: 460px;
    width: 500px;
    display: flex;
@@ -43,7 +48,7 @@ textarea
     opacity: 0.9;
     margin: 15px;
     padding: 20px 22px 15px 22px;
-}
+} 
 .formMap_img{
     content: url(../img/map.png);
 }
@@ -51,4 +56,15 @@ textarea
     background: #6eeee4;
     border:none;
     padding:20px 40px;
+}
+.form p{ 
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color: #bdbebf;
+    font-size: 15px;    
+}
+.formMap_info{
+    display: flex;
+     flex-flow: column;
+     justify-content: flex-start;
 }
