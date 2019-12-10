@@ -27,6 +27,8 @@
     display: flex;
     flex-flow: wrap;
     align-content: space-evenly;
+    padding-right: 188px;
+
 }
 
 .aboutUs_workplace_sliderMenu{

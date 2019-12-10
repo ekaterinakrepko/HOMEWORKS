@@ -7,6 +7,7 @@ font-family: 'Montserrat', sans-serif;
 font-weight: bold;
 color: #181919;
 font-size: 48px;
+text-shadow: 4px 3px 4px rgba(150, 150, 150, 1);
 }
 h2{
     font-family: 'Montserrat', sans-serif;
@@ -44,6 +45,7 @@ p{
         flex-wrap: wrap;
         position: relative;
         justify-content: space-around;
+        padding-bottom: 195px
     }
    .header_title{
        display: flex;
@@ -80,6 +82,9 @@ border: 6px solid #170f1c ;
     }
     a.header_button-contact_us{
         text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        color: #181919;
+        font-size: 18px;
     }
     .header_slider{
         flex-basis: 100%;
@@ -94,7 +99,7 @@ border: 6px solid #170f1c ;
     .cup{
     position: absolute;
     content:url(../img/cupT.png);
-    top: 450px;
+    top: 600px;
     right: 100px;
     }
 
@@ -106,3 +111,11 @@ border: 6px solid #170f1c ;
     top: 450px;
     right: 300px;
 } */
+.shopno_background{
+    background: #b2f2ee;
+}
+.subtitle{
+    font-family: 'Merriweather', serif;
+    color: #6b6b6b;
+    font-size: 18px;
+}
