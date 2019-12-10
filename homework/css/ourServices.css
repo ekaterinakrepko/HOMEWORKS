@@ -88,3 +88,12 @@ a.item_button-knowMore{
     color: #d9dbdb;
     font-size: 18px; 
 }
+a.item_button-close{
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #44948d;
+    height: 35px;
+    width: 35px;
+}
