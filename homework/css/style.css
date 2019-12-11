@@ -21,13 +21,17 @@ h3{
     font-weight: bold;
     color: #181919;
     font-size: 20px;
+    padding-bottom: 28px;
+
 }
 p{
     font-family: 'Raleway', sans-serif;
   font-weight: 500;
     color: #181919;
-    font-size: 16px;   
+    font-size: 16px;
+
 }
+
 *{
     margin:0;
     padding: 0;
@@ -118,4 +122,8 @@ border: 6px solid #170f1c ;
     font-family: 'Merriweather', serif;
     color: #6b6b6b;
     font-size: 18px;
+}
+.header_slider_title{
+    margin: 0 auto;
+    width: 1000px
 }

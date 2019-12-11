@@ -17,6 +17,13 @@
     width: 1140px;
 
 }
+.ourServices_galery p{
+    font-family: "Raleway";
+    color: rgba(255, 255, 255, 0.902);
+    line-height: 1.563;
+    text-align: left; 
+    padding-bottom: 50px;  
+}
 
 .ourServices_galery h3,.ourServices_galery p{
     color: white;
@@ -26,13 +33,9 @@
     color: black;
 }
 
-.ourServices_galery div{
-    padding:6px;
+.ourServices_galery>div{
     background-size: calc(100% - 8px);
-    display: flex;
-    flex-flow: column;
     padding: 0 30px 50px 35px;
-    justify-content: flex-end;
 }
 .galery_item_galery_item-selected,
 .galery_item_galery_item-paper,
@@ -42,7 +45,7 @@
 .galery_item_galery_item-cups{
     display: flex;
     flex-flow: column wrap;
-    justify-content: space-evenly;
+    justify-content: flex-end;
 
 }
 .galery_item_galery_item-selected{
@@ -96,4 +99,26 @@ a.item_button-close{
     color: #44948d;
     height: 35px;
     width: 35px;
+}
+.ourServices_galery .galery_item_galery_item-selected{
+    padding-right: 118px;
+}
+.ourServices_galery .galery_item_galery_item-laptop{
+    padding-right: 140px;
+}
+.ourServices_galery .galery_item_galery_item-cups{
+    padding-right: 140px;
+} 
+.galery_item-selected_wrapper{
+width: 100%;
+height: 90%;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+color: black
+}
+.item_info{
+font-size: 16px;
+font-family:'Raleway';;color: rgba(0, 0, 0, 0.749);
+line-height: 1.75;
 }

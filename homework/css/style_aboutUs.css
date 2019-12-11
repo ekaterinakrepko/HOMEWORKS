@@ -19,18 +19,37 @@
     flex-direction: column;
     align-items: center;
 }
-
+.aboutUs_workplace>div:first-child{
+    width: 479px;
+    height: 412px;
+    background-color: rgb(239, 240, 242);
+    position: absolute;
+    top: 63px;
+}
 .aboutUs_workplace>img{  
+    position: relative;
     content: url(../img/work_place.png);
 }
+.aboutUs_workplace{  
+
+    position: relative;
+
+}
+
 .aboutUs_text{
     display: flex;
     flex-flow: wrap;
-    align-content: space-evenly;
+    align-content: center;
     padding-right: 188px;
-
 }
+.aboutUs_text>p{
+    margin-bottom: 40px;
 
+    font-size: 16px;
+  font-family: "Raleway";
+  color: rgba(0, 0, 0, 0.741);
+  line-height: 1.75;
+}
 .aboutUs_workplace_sliderMenu{
     display: inline-flex;
     height: 22px;

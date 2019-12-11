@@ -61,7 +61,8 @@ textarea::placeholder{
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
     color: #bdbebf;
-    font-size: 15px;    
+    font-size: 15px; 
+    padding: 2px;   
 }
 .formMap_info{
     display: flex;
@@ -69,5 +70,12 @@ textarea::placeholder{
      padding-bottom: 20px;
 }
 .partner{
-    background: #fafcfc url(../img/partner.png);
+    display: flex;
+    justify-content: center;
+}
+.partner>img{
+    content: url(../img/partner.png);
+}
+.formMap_info_padding{
+    padding-bottom: 3px;
 }
