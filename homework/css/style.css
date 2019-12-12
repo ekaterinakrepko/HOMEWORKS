@@ -43,7 +43,7 @@ p{
     max-width: 1440px;
     margin: 0 auto;
     }
-    #header{
+    #header .wrapper{
         background:#eff0f2;
         display: flex;
         flex-wrap: wrap;
@@ -123,7 +123,21 @@ border: 6px solid #170f1c ;
     color: #6b6b6b;
     font-size: 18px;
 }
-.header_slider_title{
+.header_slider_title>div{
     margin: 0 auto;
-    width: 1000px
+    width: 1000px;
+}
+
+@media screen and (max-width: 320px){
+    .header_title{
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+
+    }
+    #header{
+        display: flex;
+        align-content: center;
+        flex-basis: 100%;
+    }
 }

@@ -1,4 +1,4 @@
-#footer{
+#footer .wrapper{
     display: flex;
     flex-flow: wrap;
     background: #262b2e;

@@ -37,6 +37,12 @@
     background-size: calc(100% - 8px);
     padding: 0 30px 50px 35px;
 }
+
+@media all and (max-width:320px){
+    .ourServices_galery>div{
+        flex-basis: 100%;
+    }    
+}
 .galery_item_galery_item-selected,
 .galery_item_galery_item-paper,
 .galery_item_galery_item-laptop,
