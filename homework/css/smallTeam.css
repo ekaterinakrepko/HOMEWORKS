@@ -1,10 +1,11 @@
-.smallTeam{
+/*.smallTeam{
     display: flex;
     flex-flow: wrap;
     background: #ffffff;
     padding-top: 130px;
     padding-bottom: 122px;
 }
+*/
 .smallTeam_info{
     flex-basis: 100%;
     text-align: center;
@@ -24,3 +25,11 @@
     content: url(../img/smallTeam_message.png);
     z-index: 5;
 }
+.smallTeam_box{
+    display: flex;
+    flex-flow: wrap;
+    background: #ffffff;
+    padding-top: 130px;
+    padding-bottom: 122px; 
+}
+

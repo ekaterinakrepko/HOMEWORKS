@@ -43,7 +43,7 @@ p{
     max-width: 1440px;
     margin: 0 auto;
     }
-    #header .wrapper{
+   /* #header .wrapper{
         background:#eff0f2;
         display: flex;
         flex-wrap: wrap;
@@ -51,6 +51,7 @@ p{
         justify-content: space-around;
         padding-bottom: 195px
     }
+    */
    .header_title{
        display: flex;
        flex-basis: 100%;
@@ -140,4 +141,12 @@ border: 6px solid #170f1c ;
         align-content: center;
         flex-basis: 100%;
     }
+}
+.header_box{
+    background:#eff0f2;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: space-around;
+    padding-bottom: 195px
 }

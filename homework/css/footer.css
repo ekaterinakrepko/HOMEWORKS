@@ -1,4 +1,4 @@
-#footer .wrapper{
+/*#footer .wrapper{
     display: flex;
     flex-flow: wrap;
     background: #262b2e;
@@ -6,6 +6,7 @@
     padding-bottom: 90px;
     justify-content: center;
 }
+*/
 .footer-title{
     display: flex;
     flex-basis: 100%;
@@ -62,4 +63,12 @@
     font-weight: 500;
     color: #bdbebf;
     font-size: 16px; 
+}
+.footer_box{
+    display: flex;
+    flex-flow: wrap;
+    background: #262b2e;
+    padding-top: 60px;
+    padding-bottom: 90px;
+    justify-content: center;
 }
