@@ -1,0 +1,27 @@
+.smallTeam{
+    display: flex;
+    flex-flow: wrap;
+    background: #ffffff;
+    padding-top: 130px;
+    padding-bottom: 122px;
+}
+.smallTeam_info{
+    flex-basis: 100%;
+    text-align: center;
+    padding-bottom: 120px;
+}
+.smallTeam_gallery img{
+    padding: 7px;
+}
+.smallTeam_gallery{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    
+}  
+.smallTeam_message{
+    position: absolute;
+    content: url(../img/smallTeam_message.png);
+    z-index: 5;
+}
+

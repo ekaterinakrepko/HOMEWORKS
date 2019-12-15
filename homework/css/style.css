@@ -150,3 +150,8 @@ border: 6px solid #170f1c ;
     justify-content: space-around;
     padding-bottom: 195px
 }
+.wrapper .header_box {
+    background: #eff0f2;
+    flex-basis:calc(100%-20%);                                   
+}
+     /*calc(100%-20%);

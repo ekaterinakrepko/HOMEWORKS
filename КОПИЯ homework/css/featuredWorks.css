@@ -1,0 +1,24 @@
+.featuredWorks{
+    display: flex;
+    flex-flow: wrap;
+    background: #ffffff;
+    padding-top: 130px;
+    padding-bottom: 122px;
+}
+.featuredWorks_info{
+    flex-basis: 100%;
+    text-align: center;
+    padding-bottom: 120px;
+}
+.featuredWorks_gallery img{
+    padding: 7px;
+}
+.featuredWorks_gallery{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+   
+
+    /*background: url(../img/featured_works_ice-cream.jpg);*/
+    /*background: url(../img/featured_works_card.jpg);*/
+}

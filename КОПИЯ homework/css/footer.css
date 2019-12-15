@@ -1,0 +1,65 @@
+#footer .wrapper{
+    display: flex;
+    flex-flow: wrap;
+    background: #262b2e;
+    padding-top: 60px;
+    padding-bottom: 90px;
+    justify-content: center;
+}
+.footer-title{
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+}
+.networks{
+    display: inline-flex;
+    min-height: 42px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 12px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.networks div{
+    /* background: #3f4244; */
+    height: 42px;
+    width: 46px;
+    margin: 8px;
+    border-radius: 5%;
+}
+.latter {
+    background: #3f4244 url(../img/footer-later.png) center no-repeat;
+}
+.twitter{
+    background: #3f4244 url(../img/footer-twitter.png) center no-repeat;
+}
+.facebook{
+    background: #3f4244 url(../img/footer_facebook.png) center no-repeat;
+}
+.net{
+    background: #3f4244 url(../img/footer_net.png) center no-repeat; 
+}
+.footer-info{
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+}
+.latter:hover{
+    background: #6eeee4 url(../img/footer-later.png) center no-repeat ;
+}
+.twitter:hover{
+    background: #6eeee4  url(../img/footer-twitter.png) center no-repeat;
+}
+.facebook:hover{
+    background: #6eeee4  url(../img/footer_facebook.png) center no-repeat;
+}
+.net:hover{
+    background: #6eeee4 url(../img/footer_net.png) center no-repeat;
+}
+.footer-title h3,
+.footer-info{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color: #bdbebf;
+    font-size: 16px; 
+}

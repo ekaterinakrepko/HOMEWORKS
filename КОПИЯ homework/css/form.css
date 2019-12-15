@@ -1,0 +1,81 @@
+.form{
+    display: flex;
+    flex-flow: wrap;
+    background: #fafcfc url(../img/form_team_trees.png);
+    padding-top: 130px;
+    padding-bottom: 122px;
+    justify-content: center;
+}
+.formCard {
+    background: #4a5962cf;
+   height: 460px;
+   width: 614px;
+   display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    padding-left: 22px;
+    padding-right: 24px;
+    opacity: 0.9;
+    margin: 15px;
+
+
+}
+input[type="text"],
+input[type="email"],
+textarea
+{
+    background: none;
+    border: none;
+    height: 50px;
+    width: 100%;
+    border-bottom: 0.5px solid silver;
+    font-size: 16px;
+  
+}
+input::placeholder,
+textarea::placeholder{
+    color: #bdbebf;
+  }
+
+.formMap{
+    background:#4a5962cf; 
+    /* background:#4a5962;  */
+   height: 460px;
+   width: 500px;
+   display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+    opacity: 0.9;
+    margin: 15px;
+    padding: 20px 22px 15px 22px;
+} 
+.formMap_img{
+    content: url(../img/map.png);
+}
+.send_message{
+    background: #6eeee4;
+    border:none;
+    padding:20px 40px;
+}
+.form p{ 
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color: #bdbebf;
+    font-size: 15px; 
+    padding: 2px;   
+}
+.formMap_info{
+    display: flex;
+     flex-flow: column;
+     padding-bottom: 20px;
+}
+.partner{
+    display: flex;
+    justify-content: center;
+}
+.partner>img{
+    content: url(../img/partner.png);
+}
+.formMap_info_padding{
+    padding-bottom: 3px;
+}

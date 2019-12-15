@@ -1,0 +1,130 @@
+.ourServices{
+    display: flex;
+    flex-flow: wrap;
+    background: #f9fbfb;
+    padding-top: 120px;
+    padding-bottom: 122px;
+    justify-content: center;
+}
+.ourServices_title{
+    flex-basis: 100%;
+    text-align: center;
+}
+.ourServices_galery{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    width: 1140px;
+
+}
+.ourServices_galery p{
+    font-family: "Raleway";
+    color: rgba(255, 255, 255, 0.902);
+    line-height: 1.563;
+    text-align: left; 
+    padding-bottom: 50px;  
+}
+
+.ourServices_galery h3,.ourServices_galery p{
+    color: white;
+}
+.galery_item_galery_item-selected h3,
+.galery_item_galery_item-selected p{    
+    color: black;
+}
+
+.ourServices_galery>div{
+    background-size: calc(100% - 8px);
+    padding: 0 30px 50px 35px;
+}
+
+@media all and (max-width:320px){
+    .ourServices_galery>div{
+        flex-basis: 100%;
+    }    
+}
+.galery_item_galery_item-selected,
+.galery_item_galery_item-paper,
+.galery_item_galery_item-laptop,
+.galery_item_galery_item-workplace,
+.galery_item_galery_item-bottle,
+.galery_item_galery_item-cups{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-end;
+
+}
+.galery_item_galery_item-selected{
+    background: url(../img/our_services_tea.png) no-repeat center/cover;
+    flex-basis: 55%;
+    min-height: 420px;
+}
+.galery_item_galery_item-paper{
+background: url(../img/our_services_papers.png) no-repeat center/cover;
+flex-basis: 40%;
+min-height: 420px;
+}
+.galery_item_galery_item-laptop{
+    background: url(../img/our_services_laptop.png) no-repeat center/cover;
+    flex-basis: 55%;
+    min-height: 370px;
+}
+.galery_item_galery_item-workplace{
+    background: url(../img/our_services_workplace.png) no-repeat center/cover;
+    flex-basis: 40%;
+    min-height: 370px;
+}
+.galery_item_galery_item-bottle{
+    background: url(../img/our_services_bottle.png) no-repeat center/cover;
+    flex-basis: 40%;
+    min-height: 370px;
+}
+.galery_item_galery_item-cups{
+    background: url(../img/our_services_cupspng.png) no-repeat center/cover;
+    flex-basis: 55%;
+    min-height: 370px; 
+}
+.white{
+    color:#f7f7f7;
+}
+a.item_button-knowMore{
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color: #d9dbdb;
+    font-size: 18px; 
+}
+a.item_button-close{
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #44948d;
+    height: 35px;
+    width: 35px;
+}
+.ourServices_galery .galery_item_galery_item-selected{
+    padding-right: 118px;
+}
+.ourServices_galery .galery_item_galery_item-laptop{
+    padding-right: 140px;
+}
+.ourServices_galery .galery_item_galery_item-cups{
+    padding-right: 140px;
+} 
+.galery_item-selected_wrapper{
+width: 100%;
+height: 90%;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+color: black
+}
+.item_info{
+font-size: 16px;
+font-family:'Raleway';;color: rgba(0, 0, 0, 0.749);
+line-height: 1.75;
+}
