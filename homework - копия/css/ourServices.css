@@ -1,4 +1,4 @@
-.ourServices{
+/*.ourServices{
     display: flex;
     flex-flow: wrap;
     background: #f9fbfb;
@@ -6,6 +6,7 @@
     padding-bottom: 122px;
     justify-content: center;
 }
+*/
 .ourServices_title{
     flex-basis: 100%;
     text-align: center;
@@ -127,4 +128,12 @@ color: black
 font-size: 16px;
 font-family:'Raleway';;color: rgba(0, 0, 0, 0.749);
 line-height: 1.75;
+}
+.ourServices_box{
+    display: flex;
+    flex-flow: wrap;
+    background: #f9fbfb;
+    padding-top: 120px;
+    padding-bottom: 122px;
+    justify-content: center;
 }

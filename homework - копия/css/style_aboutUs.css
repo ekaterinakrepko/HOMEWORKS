@@ -1,11 +1,12 @@
 /* content: url("http://www.example.com/test.png");*/
-.aboutUs{
+/*.aboutUs{
     display: flex;
     flex-wrap: wrap;
     background: #f8fafa;
     padding-top: 125px;
     padding-bottom: 110px;
 }
+*/
 .aboutUs_title{
     flex-basis: 100%;
     text-align: center;
@@ -66,4 +67,11 @@
 }
 .aboutUs_workplace_sliderMenu span .color{
     background: #71f6eb;
+}
+.aboutUs_box{
+    display: flex;
+    flex-wrap: wrap;
+    background: #f8fafa;
+    padding-top: 125px;
+    padding-bottom: 110px;
 }

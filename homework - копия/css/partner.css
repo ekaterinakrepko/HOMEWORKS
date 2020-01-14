@@ -1,0 +1,24 @@
+.partner{
+    display: flex;
+    justify-content: center;
+}
+
+.partner_box{
+    display: flex;
+    flex-direction: column; 
+}
+
+.partner_box-top{
+    display: flex;
+}
+
+.partner_box-bottom>img{
+    padding:0 40px;
+}
+
+.content{
+    margin: 0 auto;
+    flex-basis: 70%;
+    display: flex;
+    justify-content: space-around;
+}

@@ -1,10 +1,11 @@
-.featuredWorks{
+/*.featuredWorks{
     display: flex;
     flex-flow: wrap;
     background: #ffffff;
     padding-top: 130px;
     padding-bottom: 122px;
 }
+*/
 .featuredWorks_info{
     flex-basis: 100%;
     text-align: center;
@@ -21,4 +22,11 @@
 
     /*background: url(../img/featured_works_ice-cream.jpg);*/
     /*background: url(../img/featured_works_card.jpg);*/
+}
+.featuredWorks_box{
+    display: flex;
+    flex-flow: wrap;
+    background: #ffffff;
+    padding-top: 130px;
+    padding-bottom: 122px;
 }
