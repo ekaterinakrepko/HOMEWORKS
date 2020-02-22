@@ -3,6 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+@font-face {
+	font-family: 'Conv_SegoeWPN';
+	src: url('fonts/SegoeWPN.eot');
+	src: local('☺'), url('fonts/SegoeWPN.woff') format('woff'), url('fonts/SegoeWPN.ttf') format('truetype'), url('fonts/SegoeWPN.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
 .container{
     width: 100%;
     max-width: 1250px;
@@ -30,6 +37,8 @@
     color: #919191;
     text-decoration: none;
     margin-left: 36px;
+    font-family: 'Conv_SegoeWPN';
+    font-size: 20.35px;
 }
 .nav_link:hover{
     text-decoration: underline;
@@ -40,4 +49,7 @@
 }
 .header_logo_name{
     margin-left: 16px;
+    font-family: 'Conv_SegoeWPN';
+    font-weight: 200;
+    font-size: 42.35px;
 }
