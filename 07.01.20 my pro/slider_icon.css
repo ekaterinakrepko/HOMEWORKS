@@ -1,4 +1,10 @@
 .slider_icon{
     display: flex;
     justify-content: space-around;
+    padding-top: 58px;
+}
+.slider_pencil,
+.slider_computer,
+.slider_basket{
+    text-align: center;
 }
