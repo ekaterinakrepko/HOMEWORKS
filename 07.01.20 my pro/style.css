@@ -10,15 +10,18 @@
 	font-weight: normal;
 	font-style: normal;
 }
-.container{
+.max_container{
     width: 100%;
     max-width: 1250px;
     margin:0 auto;
 }
-.main_container{
+.min_container{
     width: 100%;
     max-width: 1024px;
     margin:0 auto; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 .header_box{
     display: flex;

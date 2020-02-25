@@ -1,5 +1,5 @@
 .shopping_slider{
-    display: flex;
+
     padding-top: 90px;
 }
 .shopping_img{
@@ -11,8 +11,11 @@
     flex-basis: 50%;
 }
 
-.shopping_img,
+
 .shopping_info{
     display: flex;
     flex-direction: column;
+}
+.shopping_content{
+    display: flex;
 }
