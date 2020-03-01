@@ -15,7 +15,11 @@
         flex-direction: column;
     }
 
-  .slider_pencil{
-      flex-basis: 100%;
+  .slider_pencil,
+  .slider_computer,
+  .slider_basket{
+    display: flex;
+    align-items: center;
+}
   }
 }
