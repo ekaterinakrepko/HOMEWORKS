@@ -8,3 +8,14 @@
 .slider_basket{
     text-align: center;
 }
+
+@media(max-width:640px){
+    .slider_icon{
+        display: flex;
+        flex-direction: column;
+    }
+
+  .slider_pencil{
+      flex-basis: 100%;
+  }
+}

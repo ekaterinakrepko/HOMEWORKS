@@ -61,3 +61,43 @@
     font-weight: 200;
     font-size: 42.35px;
 }
+/* 
+.burger_menu{
+    display: none;
+} */
+
+/*Media*/
+.burger_menu{
+    background-color: #5094f2;
+    height: 43px;
+    width: 58px;
+    padding: 0 0 5px 8px;
+    border-radius: 2px;
+    display: none;
+}
+.burger{
+    display: inline-flex;
+    height: 30px;
+    width: 40px;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 12px;
+    color: #ffffff;
+    background-color: #ffffff;
+}
+.burger span{
+    background-color: #5094f2;
+    height: 4px;
+}
+
+@media(max-width:640px){
+    .nav{
+        display: none;
+    }
+    .burger_menu{
+        display: block;
+    }
+    ..slider_box{
+        height: auto;
+    }
+}

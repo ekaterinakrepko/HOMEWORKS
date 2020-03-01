@@ -41,3 +41,13 @@
     z-index: 100;
 
 }
+
+@media(max-width:640px){
+    .img_iphone{
+        padding: 0 62px 0 32px;
+
+    }
+    .slider_text{
+      
+    }
+}
