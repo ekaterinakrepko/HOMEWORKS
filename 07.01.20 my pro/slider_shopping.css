@@ -19,3 +19,34 @@
 .shopping_content{
     display: flex;
 }
+
+.shopping_info_title{
+    font-family: 'Conv_SegoeWPN';
+    font-size: 34.35px;
+    color: #6f7173;
+}
+
+.shopping_title{
+    font-family: 'Conv_SegoeWPN';
+    font-size: 42.35px;
+    color: #6f7173;
+}
+.shopping_info_text{
+    font-family: 'Conv_SegoeWPN';
+    font-size: 17.35px;
+    color: #6f7173; 
+}
+
+@media(max-width:640px){
+    .shopping_content{
+        flex-direction: column;
+    }
+.shopping_title{
+    display: flex;
+    justify-content: center;
+}
+.shopping_img{
+    display: flex;
+    justify-content: center;  
+}
+}

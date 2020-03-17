@@ -2,3 +2,7 @@
     padding-top: 32px;
     padding-bottom: 45px;
 }
+.footer_box{
+    display: flex;
+    justify-content: center;
+}

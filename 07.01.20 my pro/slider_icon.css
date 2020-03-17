@@ -9,17 +9,36 @@
     text-align: center;
 }
 
+.slider_pencil_title{
+  font-family: 'Conv_SegoeWPN';
+  font-size: 20.35px;
+  color: #5094f2;
+
+
+}
+
+.slider_pencil_text{
+  font-family: 'Conv_SegoeWPN';
+  font-size: 14.35px;
+}
+
 @media(max-width:640px){
     .slider_icon{
-        display: flex;
-        flex-direction: column;
+      flex-flow: column;
+      justify-content: space-around;
+      align-items: center;
+      height: 800px;
     }
 
   .slider_pencil,
   .slider_computer,
   .slider_basket{
     display: flex;
-    align-items: center;
+    text-align: left;
+}
+.slider_basket_info{
+display: flex;
+flex-direction: column;
+justify-content: center;
 }
   }
-}
