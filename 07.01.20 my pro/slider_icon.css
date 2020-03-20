@@ -21,7 +21,10 @@
   font-family: 'Conv_SegoeWPN';
   font-size: 14.35px;
 }
-
+hr{
+  height: 0px;
+  width: 0px;
+}
 @media(max-width:640px){
     .slider_icon{
       flex-flow: column;
@@ -36,9 +39,20 @@
     display: flex;
     text-align: left;
 }
+.slider_pencil_info,
+.slider_computer_info,
 .slider_basket_info{
 display: flex;
 flex-direction: column;
 justify-content: center;
+padding-left: 23px;
+
 }
+
+hr{
+  color: black;
+    height: 2px;
+    width: 640px;
+}
+
   }

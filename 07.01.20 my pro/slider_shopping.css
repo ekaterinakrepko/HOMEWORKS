@@ -15,6 +15,8 @@
 .shopping_info{
     display: flex;
     flex-direction: column;
+    line-height: 36px;
+
 }
 .shopping_content{
     display: flex;
@@ -48,5 +50,9 @@
 .shopping_img{
     display: flex;
     justify-content: center;  
+}
+.shopping_info_title,
+.shopping_info_text{
+    padding: 0 50px 0 75px;
 }
 }
