@@ -1,3 +1,24 @@
 $(document).ready(function(){
-$('p:eq(2)').css('border', 'solid 3px red');
+/*$('p').mouseenter(function(){
+  $(this).toggleClass("blue")
+});
+});
+*/
+/*$("input").focus(function(){
+    console.log('focus')
+});*/
+/*$("input").validate({
+  rules:{
+    email:{
+      required:true,
+      email:true,
+      minlength:5
+    },
+  },
+  submitHandler: function(){
+    alert("valid");
+  }
+});*/
+
+$('#myForm').validationEngine();
 });
