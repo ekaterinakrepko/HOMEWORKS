@@ -14,7 +14,11 @@
     <link rel="stylesheet" href="css/smallTeam.css">
     <link rel="stylesheet" href="css/partner.css">
     <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/customMessages.css">
+    <link rel="stylesheet" href="css/template.css">
+    <link rel="stylesheet" href="css/validationEngine.jquery.css">
     <link rel="stylesheet" href="css/footer.css">
+
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/jquery.validate.js"></script>
@@ -255,27 +259,27 @@
     <div class="wrapper">
         <div class="form_box">
             <div class="form_box-card">
-            <div class="formCard">
+            <form class="formCard" action="#">
                 <p>
                    
-                    <input type="text" placeholder="Name*" id="name" >
+                    <input type="text" placeholder="Name*" id="name" class="validate[required] text-input" >
                 </p>
                 <p>
                    
-                    <input type="text" id="subject" placeholder=" Subject*">
+                    <input type="text" id="subject" placeholder=" Subject*" class="validate[required] text-input">
                 </p>
                 <p>
                 
-                    <input type="email" id="email"  placeholder="E-mail*">
+                    <input type="email" name="email" id="email"  placeholder="E-mail*" class="validate[required,custom[email]]">
                 </p>
                 <p > 
-                    <textarea rows="10" cols="45" name="text" placeholder="Message* " id="message"></textarea>
+                    <textarea rows="10" cols="45" name="text" placeholder="Message* " id="message" class="validate[required,custom[onlyNumberSp]]"></textarea>
                     
                  
                 </p>
                 <p><input type="submit" value="SEND MESSAGE" class="send_message">
                 </p>
-            </div>
+            </form>
             <div class="formMap">
              <div class="formMap_info">
                 <p>Adress line 1 </p>
