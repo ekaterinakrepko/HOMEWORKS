@@ -75,3 +75,12 @@
     padding-top: 125px;
     padding-bottom: 110px;
 }
+
+@media(max-width:1160px){
+    .aboutUs_box{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    }
+
+}

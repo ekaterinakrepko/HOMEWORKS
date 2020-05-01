@@ -2,7 +2,7 @@
 .formCard {
     background: #4a5962cf;
    height: 460px;
-   width: 614px;
+   max-width: 614px;
    display: flex;
     flex-flow: column;
     justify-content: space-around;
@@ -34,7 +34,7 @@ textarea::placeholder{
     background:#4a5962cf; 
     /* background:#4a5962;  */
    height: 460px;
-   width: 500px;
+   max-width: 500px;
    display: flex;
     flex-flow: column;
     justify-content: flex-end;
@@ -85,6 +85,8 @@ textarea::placeholder{
     .form_box-card{
         display: flex;
         flex-flow: column;
+        align-items: center;
 
     }
+   
 }
