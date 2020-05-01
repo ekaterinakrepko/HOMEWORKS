@@ -15,7 +15,7 @@
     display: flex;
     flex-flow: wrap;
     justify-content: center;
-    width: 1140px;
+    max-width: 1140px;
 
 }
 .ourServices_galery p{
@@ -39,11 +39,12 @@
     padding: 0 30px 50px 35px;
 }
 
-@media all and (max-width:320px){
+/*@media all and (max-width:320px){
     .ourServices_galery>div{
         flex-basis: 100%;
     }    
 }
+*/
 .galery_item_galery_item-selected,
 .galery_item_galery_item-paper,
 .galery_item_galery_item-laptop,
@@ -136,4 +137,14 @@ line-height: 1.75;
     padding-top: 120px;
     padding-bottom: 122px;
     justify-content: center;
+}
+
+@media(max-width:1088px){
+
+
+    .ourServices_galery{
+     display: flex;
+     flex-flow: column;
+
+    }
 }
