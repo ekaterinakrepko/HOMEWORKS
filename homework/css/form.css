@@ -1,8 +1,16 @@
+.form{
+    display: flex;
+    flex-flow: wrap;
+    background: #fafcfc url(../img/form_team_trees.png);
+    padding-top: 130px;
+    padding-bottom: 122px;
+    justify-content: center;
+}
 
 .formCard {
     background: #4a5962cf;
    height: 460px;
-   max-width: 614px;
+   width: 614px;
    display: flex;
     flex-flow: column;
     justify-content: space-around;
@@ -34,7 +42,7 @@ textarea::placeholder{
     background:#4a5962cf; 
     /* background:#4a5962;  */
    height: 460px;
-   max-width: 500px;
+   width: 500px;
    display: flex;
     flex-flow: column;
     justify-content: flex-end;
@@ -56,38 +64,19 @@ textarea::placeholder{
     color: #bdbebf;
     font-size: 15px; 
     padding: 2px;   
-    position: relative;
 }
 .formMap_info{
     display: flex;
      flex-flow: column;
      padding-bottom: 20px;
 }
-
+.partner{
+    display: flex;
+    justify-content: center;
+}
+.partner>img{
+    content: url(../img/partner.png);
+}
 .formMap_info_padding{
     padding-bottom: 3px;
-}
-.form_box-card{
-    display: flex;
-    
-}
-.form_box{
-    display: flex;
-    flex-flow: wrap;
-    background: #fafcfc url(../img/form_team_trees.png) no-repeat center/cover;
-    padding-top: 130px;
-    padding-bottom: 122px;
-    justify-content: center;
-    flex-basis: 100%;
-}
-
-@media(max-width:1160px){
-
-    .form_box-card{
-        display: flex;
-        flex-flow: column;
-        align-items: center;
-
-    }
-   
 }
