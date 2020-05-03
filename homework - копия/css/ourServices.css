@@ -23,7 +23,8 @@
     color: rgba(255, 255, 255, 0.902);
     line-height: 1.563;
     text-align: left; 
-    padding-bottom: 50px;  
+    padding-bottom: 50px; 
+    font-size: 16px; 
 }
 
 .ourServices_galery h3,.ourServices_galery p{
@@ -126,8 +127,8 @@ justify-content: space-between;
 color: black
 }
 .item_info{
-font-size: 16px;
-font-family:'Raleway';;color: rgba(0, 0, 0, 0.749);
+font-size: 20px;
+font-family:'Merriweather';;color: rgba(0, 0, 0, 0.749);
 line-height: 1.75;
 }
 .ourServices_box{
@@ -147,4 +148,8 @@ line-height: 1.75;
      flex-flow: column;
 
     }
+}
+
+@media(max-width:520px){
+
 }

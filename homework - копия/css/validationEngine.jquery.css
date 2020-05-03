@@ -3,13 +3,12 @@
 
 /* Z-INDEX */
  .formError { z-index: 990; }
-    .formError .formErrorContent { z-index: 991; }
-    .formError .formErrorArrow { z-index: 996; }
+    .formError .formErrorContent { z-index: 9999; }
+    .formError .formErrorArrow { z-index: 9999; }
 
-    .ui-dialog .formError { z-index: 5000; }
+    .ui-dialog .formError { z-index: 9999; }
     .ui-dialog .formError .formErrorContent { z-index: 5001; }
     .ui-dialog .formError .formErrorArrow { z-index: 5006; }
-
 
 
 
@@ -180,3 +179,9 @@ body.rtl .formError .formErrorArrow {
 	border: none;
 	background: #ddd;
 }
+
+.formError{
+	left: 318px !important;
+
+}
+

@@ -12,7 +12,7 @@ $(document).ready(function(){
       'custom_error_messages':{
          "#email":{
             "required": {
-               "message": "Пошта має містити з sdsadasdada@"
+               "message": "Поле обов'язкове"
             },
             'custom[email]':{
                "message": "Пошта має містити символ @"

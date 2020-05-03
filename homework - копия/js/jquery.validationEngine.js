@@ -1927,7 +1927,7 @@
 				}
 			}
 		},
-
+		
 	    _submitButtonClick: function(event) {
 	        var button = $(this);
 	        var form = button.closest('form, .validationEngineContainer');

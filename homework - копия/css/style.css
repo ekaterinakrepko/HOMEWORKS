@@ -30,6 +30,11 @@
     flex-direction: column;
     justify-content: center;
 }
+
+.header_logo{
+    border: 6px solid black;
+    padding: 9px;
+}
 .burger_menu {
     display: inline-flex;
     width: 30px;
@@ -56,6 +61,21 @@
     height: 500px;
 }
 
+.header_slider_title{
+    font-family: Montserrat;
+    font-size: 45px;
+    font-weight: bold;
+   
+}
+
+.header_button-contact_us{
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight:300; 
+    border: 1px solid black ;
+    padding: 17px 45px;
+}
 @media(max-width:1440px){
     .wrapper{
         max-width: 970px;
