@@ -71,4 +71,5 @@
     padding-top: 60px;
     padding-bottom: 90px;
     justify-content: center;
+    flex-basis: 100%;
 }

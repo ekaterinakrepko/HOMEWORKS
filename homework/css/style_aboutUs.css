@@ -75,3 +75,28 @@
     padding-top: 125px;
     padding-bottom: 110px;
 }
+
+h2{
+    font-family: Montserrat;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.subtitle{
+    font-family: Merriweather;
+    font-size: 17px;
+}
+@media(max-width:1160px){
+    .aboutUs_box{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    }
+
+}
+
+@media(max-width:499px){
+    .aboutUs_text>p{
+    font-size: 16px;
+}
+}
