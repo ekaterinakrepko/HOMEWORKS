@@ -29,6 +29,7 @@
 .header_box{
     flex-direction: column;
     justify-content: center;
+    padding-top: 60px;
 }
 
 .header_logo{
@@ -58,24 +59,40 @@
     display: flex;
     flex-flow: column;
     align-items: center;
-    height: 500px;
+    height:550px;
+    position: relative;
 }
 
 .header_slider_title{
-    font-family: Montserrat;
+    font-family:'Montserrat', sans-serif;
     font-size: 45px;
     font-weight: bold;
+    color: #181919;
+    text-shadow: 4px 3px 4px rgba(150, 150, 150, 1);
    
+}
+
+.shopno_background{
+    background: #b2f2ee;
 }
 
 .header_button-contact_us{
     text-decoration: none;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
+    color: #181919;
     font-size: 18px;
     font-weight:300; 
     border: 1px solid black ;
     padding: 17px 45px;
 }
+
+.cup {
+    position: absolute;
+    content: url(../img/cupT.png);
+    top: 350px;
+    right: 30px;
+}
+
 @media(max-width:1440px){
     .wrapper{
         max-width: 970px;
@@ -88,6 +105,17 @@
 }
 @media(max-width:767px){
     .wrapper{
-        max-width: none;
+        max-width: 550px;
     }
+}
+    @media(max-width:500px){
+        .wrapper{
+            max-width: 360px;
+        }
+    }
+
+    @media(max-width:360px){
+        .wrapper{
+            max-width: none;
+        }
 }
