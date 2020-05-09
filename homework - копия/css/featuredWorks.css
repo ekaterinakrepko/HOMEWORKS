@@ -30,3 +30,10 @@
     padding-top: 130px;
     padding-bottom: 122px;
 }
+
+
+@media(max-width:500px){
+.featuredWorks_gallery>img{
+max-width: 350px;
+    }
+}

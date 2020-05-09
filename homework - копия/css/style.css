@@ -119,3 +119,11 @@
             max-width: none;
         }
 }
+
+@media(max-width:552px){
+    .cup {
+        position: static;
+       
+        right: 0px;
+     }
+}
