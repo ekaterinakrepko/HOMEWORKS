@@ -91,3 +91,21 @@ textarea::placeholder{
     }
    
 }
+
+@media(max-width:500px){
+
+    .formCard{
+        max-width: 400px;
+        height: 420px;
+
+    }
+    .formMap{
+        max-width: 460px;
+        height: 400px;
+
+    }
+    .formMap_img{
+        width: 360px;
+    }
+   
+}
