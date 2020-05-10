@@ -92,7 +92,7 @@ textarea::placeholder{
    
 }
 
-@media(max-width:500px){
+@media(max-width:1080px){
 
     .formCard{
         max-width: 400px;
