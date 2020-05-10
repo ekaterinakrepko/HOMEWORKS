@@ -94,6 +94,7 @@ textarea::placeholder{
 
 @media(max-width:1080px){
 
+  
     .formCard{
         max-width: 400px;
         height: 420px;
@@ -109,3 +110,5 @@ textarea::placeholder{
     }
    
 }
+
+
