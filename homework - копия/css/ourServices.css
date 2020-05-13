@@ -196,3 +196,16 @@ line-height: 1.75;
     justify-content: center;
      }
 }
+
+
+@media(max-width:500px){
+.ourServices_galery .galery_item_galery_item-laptop,
+.ourServices_galery .galery_item_galery_item-cups{
+padding-right: 0px;
+      }
+
+.galery_item_galery_item-laptop,
+.galery_item_galery_item-cups{
+    min-height: 0px; 
+      }
+}

@@ -109,6 +109,30 @@ textarea::placeholder{
         width: 360px;
     }
    
+    .form_box{
+        max-width: 1080px;
+    }
 }
 
 
+@media(max-width:500px){
+
+  
+    .formCard{
+        max-width: 350px;
+        height: 400px;
+
+    }
+    .formMap{
+        max-width: 350px;
+        height: 400px;
+
+    }
+    .formMap_img{
+        width: 310px;
+    }
+   
+    .form_box{
+        max-width: 500px;
+    }
+}
