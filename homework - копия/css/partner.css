@@ -22,3 +22,10 @@
     display: flex;
     justify-content: space-around;
 }
+
+
+@media(max-width:552px){
+.partner_box-bottom{
+    display: flex;
+     }
+}
